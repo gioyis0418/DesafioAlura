@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="CSS.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+
+    <header class="cabecera">
+        <img src="imagenes/Logo.png" alt="Logo Alura">
+    </header>
+
+    <div id="principal">
+
+        <div id="agrupar">
+            <main>
+                <section class="seccionUno">
+                    <textarea name="text" id="ingresarTexto" cols="55" rows="18" placeholder="Ingrese el texto aqui"></textarea>
+                    <footer class="botones">
+                        <p><em>&#x26A0;</em> Solo letras minúsculas y sin acento</p>
+                        <button onclick="encriptarTexto();" class="boton1">Encriptar</button>
+                        <button onclick="textoDesencriptado();" class="boton2">Desencriptar</button>
+                    </footer>
+                </section>
+            </main>
+        </div>
+    
+        <div class="agrupar2">
+            <section class="seccionDos">
+                <div id="div-imagen">
+                <figure>
+                    <img src="imagenes/Muñeco.png" alt="Ningún mensaje fue encontrado">
+                </figure>
+                     
+                <h1 class="textoImagen">Ningún mensaje fue encontrado</h1>
+                <p class="textoImagen2">Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+
+                <div id="mostarTexto">
+                    <p id="mostarTextoEncriptado"></p>
+                    <button id="botonCopiar" class="boton3">Copiar</button>
+                </div>
+             </section>
+        </div>
+
+    </div>
+    <script src="app-encriptador.js"></script>
+</body>
+</html>

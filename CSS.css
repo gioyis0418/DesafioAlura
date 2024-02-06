@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quicksand", sans-serif;
+}
+
+main, header, section, footer, figure{
+    display: block;
+}
+
+body{
+    text-align: center;
+    background: #F3F5FC;
+}
+
+#principal{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#agrupar{
+    width: 660px;
+    margin: 75px auto 0px auto;
+    text-align: left;
+    float: left;
+}
+
+.agrupar2{
+    width: 202px;
+    float: left;
+    margin: 30px 0px 0px 30px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.cabecera{
+    padding: 20px;
+    margin-left: 65px;
+    text-align: left;
+    float: left;
+}
+
+.seccionUno{
+    float: left;
+    width: 660px;
+    height: 655px;
+    margin: 20px;
+}
+
+.botones{
+    text-align: center;
+    padding: 10px;
+}
+
+#ingresarTexto{
+    resize: none;
+    border: none;
+    background: #F3F5FC;
+    color: #0A3871;
+    font-size: 22px;
+}
+
+.botones p{
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #495057;
+
+}
+
+.botones em{
+    font-size: 15px;
+}
+
+.boton1, .boton2{
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 24px;
+    border: none;
+}
+
+.boton1{
+    float: left;
+    background: #0A3871;
+    color: #FFFFFF;
+    border: 1px solid #0A3871;
+    transition: 0.4s;
+}
+
+.boton1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background: #D8DFE8;
+    color: #0A3871;
+}
+
+.boton2{
+    float: right;
+    background: #D8DFE8;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+    transition: 0.4s;
+}
+
+.boton2:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background: #0A3871;
+    color: #D8DFE8;
+}
+
+#ingresarTexto:focus{
+    outline: none;
+}
+
+.seccionDos{
+    float: left;
+    width: 245px;
+    height: 640px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+figure img{
+    width: 245px;
+}
+
+.textoImagen{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #343A40;
+
+}
+
+.textoImagen2{
+    font-size: 12px;
+    text-align: center;
+    color: #495057;
+}
+
+#mostarTextoEncriptado{
+    width: 220px;
+    height: 528px;
+    margin-left: 12px;
+    text-align: justify;
+}
+
+.boton3{
+    width: 195px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 24px;
+    border: none;
+    margin-left: 12px;
+    background: #0A3871;
+    color: #FFFFFF;
+    border: 1px solid #0A3871;
+    transition: 0.4s;
+}
+
+.boton3:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background: #D8DFE8;
+    color: #0A3871;
+}
