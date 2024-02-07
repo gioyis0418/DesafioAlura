@@ -43,8 +43,7 @@ function encriptarTexto() {
     let mostrarTextoEncriptado = document.getElementById('mostarTextoEncriptado');
     mostrarTextoEncriptado.innerHTML = textoEncriptado;
 
-    document.getElementById("div-imagen").style.display = "none";
-    document.getElementById("mostarTexto").style.display = "block";
+    ocultarImagen()
 
     limpiarCaja();
 
@@ -65,6 +64,8 @@ function textoDesencriptado() {
     let mostrarTextoEncriptado = document.getElementById('mostarTextoEncriptado');
     mostrarTextoEncriptado.innerHTML = textoIngresado;
 
+    ocultarImagen()
+
     limpiarCaja();
 }
 
@@ -75,10 +76,15 @@ botonCopiar.addEventListener('click', e => {
     })
     .catch(err => {
         console.error('Error al copiar el texto: ', err);
-        })
-    });
+    })
+});
     
     
-    function limpiarCaja() {
-        document.querySelector('#ingresarTexto').value = '';
-    }
+function limpiarCaja() {
+     document.querySelector('#ingresarTexto').value = '';
+}
+
+function ocultarImagen(){
+    document.getElementById("div-imagen").style.display = "none";
+    document.getElementById("mostarTexto").style.display = "block";
+}
