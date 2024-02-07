@@ -169,7 +169,7 @@ figure img{
     color: #0A3871;
 }
 
-@media screen and (max-width: 480px) and (min-width: 300px){
+@media screen and (max-width: 600px) and (min-width: 300px){
     *{
         width: 100%;
     }
