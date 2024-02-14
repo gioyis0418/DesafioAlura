@@ -348,18 +348,18 @@ figure img{
     }
     
     #ingresarTexto{
-        width: 50%;
+        width: 65%;
         height: 160px;
-        margin: 0% 25%;
+        margin: 0% 17.5%;
     }
     .botones{
         padding: 0;
     }
     .boton1, .boton2{
-        width: 50%;
-        height: 60px;
+        width: 65%;
+        height: 50px;
         border-radius: 30px;
-        margin: 1% 25%;
+        margin: 1% 17.5%;
     }
 
     .botones p{
@@ -367,11 +367,12 @@ figure img{
         text-align: center;
     }
     .seccionDos{
-        width: 50%;
-        margin: 0% 25%;
+        width: 65%;
+        margin: 0% 17.5%;
         height: 350px;
         border-radius: 22px;
     }
+    
     figure img{
         width: 100%;
         width: 80%;
